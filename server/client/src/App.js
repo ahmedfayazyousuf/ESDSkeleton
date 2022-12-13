@@ -10,6 +10,7 @@ import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Logout from "./components/Logout/Logout";
 import Errorpage from "./components/Errorpage/Errorpage";
+import Contact from "./components/Contact/Contact";
 import {initialState, reducer } from "../src/reducer/UseReducer";
 
 export const UserContext = createContext();
@@ -23,6 +24,7 @@ const Routing = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/logout" element={<Logout />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Errorpage />} />
     </Routes>
   )
