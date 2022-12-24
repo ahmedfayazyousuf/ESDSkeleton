@@ -18,7 +18,7 @@ const ChooseHotel = () => {
 
     function Handleclick(v){
         if(car === ''){
-            return;
+            return; 
         }
         
     navigate(v, {state:{uid:location.state.uid,count:location.state.count}});
