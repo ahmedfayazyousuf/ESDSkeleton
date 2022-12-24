@@ -119,7 +119,7 @@ const Services = () => {
                 <button className="grab" style={{color:"black", marginRight:'20px', background:"white",width:"150px",borderRadius: '5px', padding: '10px'}} variant="contained">Covid Protocols</button> 
             </Link>
             
-            <Link to="/dashboard">
+            <Link to="/success">
                 <button className="grab" style={{color:"black", background:"white",width:"150px",borderRadius: '5px', padding: '10px'}} variant="contained" onClick= {() => Handleclick(car)}>Next</button> 
             </Link>
 
