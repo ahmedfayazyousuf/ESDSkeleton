@@ -9,6 +9,10 @@ import Formbuilder from "./components/Formbuilder/Formbuilder";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Logout from "./components/Logout/Logout";
+import ChooseContienent from "./components/ChooseContienent";
+import ChooseHotel from "./components/ChooseHotel";
+import BookRoom from "./components/BookRoom";
+import Services from "./components/Services";
 import Errorpage from "./components/Errorpage/Errorpage";
 import Contact from "./components/Contact/Contact";
 import {initialState, reducer } from "../src/reducer/UseReducer";
@@ -24,6 +28,10 @@ const Routing = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/logout" element={<Logout />} />
+      <Route path="/choosecontienent" element={<ChooseContienent />} />
+      <Route path="/choosehotel" element={<ChooseHotel />} />
+      <Route path="/bookroom" element={<BookRoom />} />
+      <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Errorpage />} />
     </Routes>

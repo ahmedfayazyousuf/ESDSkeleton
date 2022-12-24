@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./Home.css";
+import "../All.css";
 
 const Home = () => { 
     const [userData, setUserData] = useState({});

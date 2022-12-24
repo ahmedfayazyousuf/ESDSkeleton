@@ -18,7 +18,7 @@ const Navbar = () => {
                         <NavLink className="nav-link" to="/profile">Profile</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/book">Book</NavLink>
+                        <NavLink className="nav-link" to="/choosecontienent">Book</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/contact">ContactUs</NavLink>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <NavLink className="nav-link" to="/profile">Profile</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/book">Book</NavLink>
+                        <NavLink className="nav-link" to="/choosecontienent">Book</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/contact">ContactUs</NavLink>
@@ -61,6 +61,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'black'}}>   
         <NavLink className="navbar-brand" to="/">
             <img src={thhlogoo} style={{marginLeft: '15px',height:'40px', width: '120px'}} alt="the hanging house logo"/>
+            <p style={{fontSize:'10px', marginLeft: '40px', marginTop: '5px', marginBottom: '0'}}>Book My Hotel</p>
         </NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
