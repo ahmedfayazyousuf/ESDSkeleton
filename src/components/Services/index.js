@@ -115,9 +115,15 @@ const Services = () => {
             </div>
 
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop:'10px'}} >
+            <Link to="/covid">
+                <button className="grab" style={{color:"black", marginRight:'20px', background:"white",width:"150px",borderRadius: '5px', padding: '10px'}} variant="contained">Covid Protocols</button> 
+            </Link>
+            
             <Link to="/dashboard">
                 <button className="grab" style={{color:"black", background:"white",width:"150px",borderRadius: '5px', padding: '10px'}} variant="contained" onClick= {() => Handleclick(car)}>Next</button> 
             </Link>
+
+            
             </div>
 
               

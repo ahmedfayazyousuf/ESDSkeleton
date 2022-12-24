@@ -13,6 +13,8 @@ import ChooseContienent from "./components/ChooseContienent";
 import ChooseHotel from "./components/ChooseHotel";
 import BookRoom from "./components/BookRoom";
 import Services from "./components/Services";
+import Covid from "./components/Covid";
+import Admin from "./components/Admin";
 import Errorpage from "./components/Errorpage/Errorpage";
 import Contact from "./components/Contact/Contact";
 import {initialState, reducer } from "../src/reducer/UseReducer";
@@ -23,6 +25,7 @@ const Routing = () => {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
+      <Route path="/covid" element={<Covid />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/formbuilder" element={<Formbuilder />} />
       <Route path="/login" element={<Login />} />
@@ -30,6 +33,7 @@ const Routing = () => {
       <Route path="/logout" element={<Logout />} />
       <Route path="/choosecontienent" element={<ChooseContienent />} />
       <Route path="/choosehotel" element={<ChooseHotel />} />
+      <Route path="/admin" element={<Admin />} />
       <Route path="/bookroom" element={<BookRoom />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />

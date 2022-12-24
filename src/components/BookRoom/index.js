@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import Logo from '../Logo.png';
 
 import One from './Images/1.jpg';
@@ -10,7 +10,7 @@ import Six from './Images/6.jpg';
 import Seven from './Images/7.jpg';
 import Eight from './Images/8.jpg';
 
-import Nine from './Images/9.jpg';
+import Nine from './Images/9.jpg'; 
 import Ten from './Images/10.jpg';
 import Eleven from './Images/11.jpg';
 import Twelve from './Images/12.jpg';
@@ -217,28 +217,28 @@ const BookRoom= () => {
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end'}}>
                     <div id='One' className="content content-1" onClick={()=>{carClick('One')}} style={{padding: '0', margin: '10px'}}>
                         <img src={One} alt="Logo" style={{width: '20vh', padding: '20px'}}/>
-                        <p style={{fontSize: '10px'}}>One 2023</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Luxury Room</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start'}}>
                     <div id='Two' className="content content-1" onClick={()=>{carClick('Two')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Two} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Two</p>
+                        <p style={{fontSize: '10px', color:'white'}}>VIP Room</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start'}}>
                     <div id='Three' className="content content-1" onClick={()=>{carClick('Three')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Three} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Three</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Couple Room</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start'}}>
                     <div id='Four' className="content content-1" onClick={()=>{carClick('Four')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Four} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>NISSAN Z</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Deluxe Room</p>
                     </div>
                 </div>
                 
@@ -249,28 +249,28 @@ const BookRoom= () => {
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', padding: '0', margin: '0'}}>
                     <div id='Five' className="content content-1" onClick={()=>{carClick('Five')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Five} alt="Logo" style={{width: '20vh', padding: '20px'}}/>
-                        <p style={{fontSize: '10px'}}>Five 2023</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Business Suite</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Six' className="content content-1" onClick={()=>{carClick('Six')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Six} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>NISSAN NISMO 370Z</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Economy Room</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Seven' className="content content-1" onClick={()=>{carClick('Seven')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Seven} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Seven</p>
+                        <p style={{fontSize: '10px', color:'white'}}>First Class Room</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Eight' className="content content-1" onClick={()=>{carClick('Eight')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Eight} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Eight</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Tourists Paradise</p>
                     </div>
                 </div>
                 
@@ -281,35 +281,37 @@ const BookRoom= () => {
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', padding: '0', margin: '0'}}>
                     <div id='Nine' className="content content-1" onClick={()=>{carClick('Nine')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Nine} alt="Logo" style={{width: '20vh', padding: '20px'}}/>
-                        <p style={{fontSize: '10px'}}>Five 2023</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Spa Set</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Ten' className="content content-1" onClick={()=>{carClick('Ten')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Ten} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>NISSAN NISMO 370Z</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Pleasure Suite</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Eleven' className="content content-1" onClick={()=>{carClick('Eleven')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Eleven} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Seven</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Aesthetic Compound</p>
                     </div>
                 </div>
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '0', margin: '0'}}>
                     <div id='Twelve' className="content content-1" onClick={()=>{carClick('Twelve')}} style={{padding: '0', margin: '10px'}}>
                         <img src={Twelve} alt="Logo" style={{width: '20vh', padding: '20px'}}/>  
-                        <p style={{fontSize: '10px'}}>Eight</p>
+                        <p style={{fontSize: '10px', color:'white'}}>Luxury Plus Plus</p>
                     </div>
                 </div>
                 
             </div>
 
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop:'10px'}}>
-                <button className="grab" id='return' style={{width:"150px", margin: '10px', borderRadius: '5px', padding: '10px', color: 'black', backgroundColor: 'white', marginBottom: '20px'}}>Next</button>
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop:'10px', marginBottom:'50px'}}>
+                <Link to="/Services">
+                    <button className="grab" style={{color:"black", background:"white",width:"150px",borderRadius: '5px', padding: '10px'}} variant="contained">Next</button> 
+                </Link>
             </div>
 
         </div>
